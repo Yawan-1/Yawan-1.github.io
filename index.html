@@ -2,384 +2,196 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My initial project experience: journey and lessons!</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
 <body class="stackedit">
-    <div class="stackedit__html">
-        <h1 id="my-initial-project-experience-journey-and-lessons">My initial project experience: journey and lessons!
-        </h1>
-        <p>Hi! Everything good? Enough of the Intro! Let’s start.</p>
-        <p><small>Note: This post may be lengthy, but it will be worth your time.</small></p>
-        <p>I built my first project about 3 years ago, back when I was just starting out and didn’t have a lot of
-            knowledge
-            about different technologies. Despite my limited expertise, I poured my heart and soul into creating it,
-            opting
-            for simpler tools and methods like,</p>
-        <p><strong>Python</strong>: For backend.<br>
-            <strong>Django</strong>: Framework.<br>
-            <strong>HTML &amp; CSS</strong>: For templates.<br>
-            <strong>Threading</strong>: To put programs on sleep and perform certain pending tasks.<br>
-            Used <strong>PostgreSQL</strong> database.
-        </p>
-        <p>The project took about <strong>3 months</strong> to complete. Why so long, you ask? Well, the journey of
-            completing a project can be unpredictable. In my case, the ups and downs of my experience will soon be
-            revealed in
-            the upcoming sections of this page.</p>
-        <p>Let’s begin the Journey.<br>
-            <small>Key points for quick navigation if bored. Top section: Journey-focused. Second section: Technical
-                details.</small>
-        </p>
-        <ol>
-            <li>
-                <p>Journey and Planning</p>
-                <ul>
-                    <li>Thinking and Planning
-                        <ul>
-                            <li>Planning of how to start and what tools to use (which I didn’t plan).</li>
-                            <li>Monitoring every action and functionality of Stack Overflow.</li>
-                        </ul>
-                    </li>
-                    <li>Started building
-                        <ul>
-                            <li>Configuring the project (describing the <strong>journey</strong>, not technical).</li>
-                            <li>The more code I wrote, the more I learn to create complex functionalities.</li>
-                            <li>Asking zero questions about Stack Overflow on Stack Overflow while building Stack
-                                Overflow.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <p>Technical lessons learned (but explained philosophically).</p>
-                <ul>
-                    <li>Symptoms if you’re dumb as I was.
-                        <ul>
-                            <li>Choosing right technology to build the project.</li>
-                            <li>Not Managing the project from the very beginning.</li>
-                            <li>Just finishing the task and not <strong>enjoying</strong> it (!important).</li>
-                            <li>Didn’t separate everything I created.</li>
-                            <li>Not keeping Security in Mind.</li>
-                            <li>Forgetting everything I needed to build and will built in future.</li>
-                            <li>Thinking only you will use the product in the world and no-one else.</li>
-                            <li>Want to do it in Future? <strong>Just Do It Now!</strong></li>
-                        </ul>
-                    </li>
-                    <li>Efficiency in Coding is a key priority (<small>Not completed yet! Blog is too long and I said
-                            what I
-                            wanted to say, There will be second part of this post explaining below points</small>).
-                        <ul>
-                            <li>Designing models and it’s main functionalities.</li>
-                            <li>Separating apps.</li>
-                            <li>Choosing views methods.</li>
-                            <li><em>Efficient queries</em> and <em>Querying values</em> all at once from Database.</li>
-                            <li>True, False, False, True, False.</li>
-                            <li>Have you every heard of using comments.</li>
-                            <li>When to use <code>len</code> and when to use <code>count</code> and more.</li>
-                            <li>Decorators are much better to work with.</li>
-                            <li>Don’t forget about translations in both end.</li>
-                            <li>Don’t mess with someone else’s HTML and CSS but design your own.</li>
-                            <li>Passing tests leads the way to success!<br>
-                                <small>I’ll be adding more additional points in future.</small>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-        <h5 id="lets-begin">Let’s begin</h5>
-        <hr>
-        <hr>
-        <p>Journey and Planning</p>
-        <hr>
-        <ol>
-            <li><small><strong>Planning of how to start and what tools to use (which I didn’t plan)</strong></small>
-            </li>
-        </ol>
-        <p>As previously mentioned, I was in the early stages of learning about Django and had limited knowledge of
-            other
-            options available. Therefore, I opted to use DRF for my project. While I do not regret this decision, I
-            realize
-            now that I did not thoroughly assess the efficiency or potential drawbacks of Django. <strong>It is
-                important to
-                always evaluate the weaknesses of the tool you choose to build your project in</strong>, meaning if you
-            can
-            build the features and functionalities in the tool you are choosing. Additionally, it is essential to
-            consider
-            whether you are fully prepared to navigate the complexities of the chosen tool.<br>
-            During that time, I had approximately 35% knowledge of Django and did not hesitate to begin working on the
-            project
-            with whatever I know about Django. And now I can confidently state that I acquired knowledge of around 85%
-            of
-            Django during the project’s development. I would only say <strong>Don’t wait for anything. JUST START with
-                whatever YOU KNOW and whatever you have. You will acquire knowledge automatically throughout the juicy
-                journey.</strong></p>
-        <hr>
-        <ol start="2">
-            <li><small><strong>Monitoring every action and functionality of Stack Overflow.</strong></small></li>
-        </ol>
-        <p>I had a Stack Overflow account with about 900 Rep <small>(which I earned in about 2 years)</small>. And I had
-            access to privileges like <code>access review queues</code>, <code>view close votes</code> but was not
-            enough to
-            get the idea of how <code>Low quality posts</code>, <code>Moderator tools</code>,
-            <code>Reviewing queues</code>
-            works, for which I couldn’t get any help from high rep users because I didn’t know any, and even If I did, I
-            highly doubt they wouldn’t tell me the complete functionalities of reviewing process. But I had to implement
-            it no
-            matter what, so I started looking for answers and found <a
-                href="https://stackoverflow.com/help/review-low-quality">Stack Overflow’s explaining about Low quality
-                posts</a>.
-        </p>
-        <p>so it was like</p>
-        <p>-&gt; <code>query to get all posts which are low in quality</code> such as
-            <code>Q and A wihch are short</code>,
-            <code>Q and A from new users</code>.<br>
-            -&gt;
-            <code>Taking a post one by one and checking the action if user skipped the review or took any action</code><br>
-            -&gt; <code>If skipped flag it as skipped and pass it high rep user</code><br>
-            -&gt; <code>If not skipped then check how many votes were on post to mark it as low quality post.</code>
-        </p>
-        <p>I gathered all of ideas of functionalities from SO like <a
-                href="https://stackoverflow.com/help/review-suggested-edits">Suggested Edits</a>, <a
-                href="https://stackoverflow.com/help/review-close">Close Votes</a>.</p>
-        <p>Afterward, <strong>it was not difficult to implement once you know the concept of how things works</strong>.
-        </p>
-        <p>However, I found it useful to closely monitor each detail of how SO showcases information and engages users,
-            including aspects <code>Rewarding awards</code>, <code>Badges</code>, <code>Declaring bounties</code>,
-            <code>Awarding bounties</code>. While this process proved to be time-consuming and took longer than
-            anticipated,
-            the monitoring efforts were ultimately valuable than expected.
-        </p>
-        <p><small>and I learned</small></p>
-        <blockquote>
-            <p><em>When a user is in a specific location for a particular task, he or she may overlook the most obvious
-                    details about it, whether it be a place, application, or website.</em></p>
-        </blockquote>
-        <hr>
-        <hr>
-        <p>Started building</p>
-        <hr>
-        <ol>
-            <li><small><strong>Configuring the project</strong></small></li>
-        </ol>
-        <p>Then, I made a long list of features and functionalities I will be building in the project with the rows like
-            <strong>Hard to Implement</strong>, <strong>Easy to Implement</strong>. I had about 10-15 SO functionalities
-            in
-            <strong>Hard</strong> row and 30-35 functionalities in <strong>Easy</strong> row.
-        </p>
-        <p>Unfortunately, I lost the table of features which I had it saved. However, I do remember some of the
-            functionalities that were categorized in the Hard row like
-            <code>Edited Question and Answer's Revision</code>,
-            <code>Deciding if edit should save or not</code>, <code>Handling review queues</code>, <small>I don’t
-                remember
-                all</small>. I didn’t know why I choose term <strong>Hard</strong> without knowing the under process at
-            that
-            time, The truth is <strong>I didn’t know anything about anything, I just got my hands into it started
-                building
-                it</strong>.
-        </p>
-        <p>As I continue to implement easy/basic functionalities, my understanding of building more complex functions
-            has
-            deepened. This has led me to problem-solving by breaking down processes, enabling me to successfully
-            implement
-            functions that I initially believed were beyond my capabilities.</p>
-        <hr>
-        <ol start="2">
-            <li><small><strong>The more code I wrote, the more I learn to create complex
-                        functionalities.</strong></small>
-            </li>
-        </ol>
-        <p>As I mentioned in previous section, let’s dig deep in it. Becoming expert in coding involves more than just
-            problem-solving and approaching all tasks with a coding mindset, but It involves optimizing efficiency by
-            considering multiple approaches, carefully selecting the most suitable option, and ultimately implementing
-            it in
-            the current project.</p>
-        <p>which I learned while building this project, at the time from <strong>building</strong> and
-            <strong>completing</strong>, I didn’t care about efficiency, consistency, queries, load on database but only
-            focused on just building it and finishing it somehow, no matter how many loops I had to create. And Now when
-            I
-            look back at my project and look at the code I wrote, I only see straight colorful puke.
-        </p>
-        <hr>
-        <ol start="3">
-            <li><small><strong>Asking zero questions about Stack Overflow on Stack Overflow while building Stack
-                        Overflow.</strong></small></li>
-        </ol>
-        <p>It’s true that I didn’t ask any questions on Stack Overflow when I encountered errors because I believed they
-            would be resolved by the end of the day. I found it helpful to take breaks and return to the issue after 1-2
-            hours, which often resulted in a solution. While I did refer to Stack Overflow answers when needed, I
-            preferred to
-            troubleshoot and solve problems on my own without asking a question especially.</p>
-        <hr>
-        <hr>
-        <p>Technical lessons learned - <strong>Symptoms if you’re dumb as I was</strong></p>
-        <hr>
-        <ol>
-            <li><small><strong>Choosing right technology to build the project</strong></small></li>
-        </ol>
-        <p>If you’re building something, choose the right kind of tools and technologies, don’t hesitate to take your
-            time
-            to research because choosing the right tech will pay off at the end.</p>
-        <p>For instance, if you select a technology that is not optimized for task efficiency and you proceed to build a
-            product with it, at start progress may seem smooth. However, as development progresses, you may encounter
-            limitations and deficiencies in the dumb technology that hinder your ability to go back or move forward.
-            Reversing
-            would consume valuable time already invested, while going forward could result in a dumb product that fails
-            to
-            meet end user needs, leading to disengagement or lack of utilization.</p>
-        <p>In my case, I used <code>threading</code> to handle task queues in situations like
-            <code>To release ban of a user in particular time period</code>, <code>End bounties after 5,6,7 days</code>,
-            <code>auto close questions</code>, etc.
-        </p>
-        <p>If you know threading then you would know that, it is only good for <strong>short term tasks</strong> if I
-            keep
-            it more simple. like if you want to handle or create a API call to a URL and want to call it in after 10
-            seconds
-            when the user presses button then I would use threading in that case but In my project <a
-                href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L111">I put task to sleep
-                for
-                62208000 seconds (4 years)</a> I used even more you can take a look in the repo. Can you imagine? If you
-            can
-            imagine then you are on the right path, if not then you need to _____________ <small>(You can place any
-                words you
-                want in the blank area)</small></p>
-        <hr>
-        <ol start="2">
-            <li><small><strong>Not Managing the project from the very beginning.</strong></small></li>
-        </ol>
-        <p>Are you building a project right now? If yes, then it’s not too late to manage it accordingly, if you
-            managing it
-            right then look again, it’s not managed well. You don’t wanna know what I did to manage my project do you,
-            Wanna
-            know? <strong>Nothing</strong>. Creeped out? No? <a
-                href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L5366">Look at the lines I
-                have in
-                one file</a>. Still haven’t creeped out? <a
-                href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L5165">Look at the names
-                of
-                variables</a> (bool_1, bool_2, bool_3) <a
-                href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/review/views.py#L3802">Look at the
-                beauty of
-                if, else statement</a>. Came from basin? Now Let’s discuss about <strong>Managing the project</strong>,
-            Clearly
-            I didn’t manage my project well which made the project unmaintainable, impossible to understand to user no
-            matter
-            if they are expert or a beginner.</p>
-        <ul>
-            <li>Organize files into separate categories such as helpers, constants, and utilities. Ensure careful
-                management
-                of core project files, handling them separately for development and production environments. For
-                instance, in
-                Django, manage files within the app’s folder, and in React, consider files like App.js and root.js…</li>
-            <li>It is important to ensure that secrets keys remains private and obscured from the public eye, and even
-                more so
-                from yourself and keep it in .env. Ultimately, the only choices that will exist are either compromised
-                or
-                safeguarded.</li>
-            <li><small>Will write more if remember.</small></li>
-        </ul>
-        <hr>
-        <ol start="3">
-            <li><small><strong>Just finishing the task and not enjoying it.</strong></small></li>
-        </ol>
-        <p>Are you living your life the fullest or sacrificing your life for someone else? If you are living your life
-            then
-            you would understand that enjoying while building something can not only be juicy but more pleasurable. So,
-            If
-            you’re building something even if it is small or bigger than you, don’t just build it but enjoy it, because
-            nobody
-            knows if your product will change the world and you may miss the journey later.</p>
-        <p>I am repeating myslef, I viewed building the project as a task assigned to me, which I completed despite not
-            particularly enjoying the process. Now I think, I believe that having a more positive mindset during that
-            time
-            could have resulted in greater awareness of the project’s requirements and the quality of the code I wrote.
-        </p>
-        <hr>
-        <ol start="3">
-            <li><small><strong>Didn’t separate everything I created.</strong></small></li>
-        </ol>
-        <p>As I mentioned in earlier section that, I didn’t take good care of files and the code I put into them, I just
-            stacked them into one and go on and on and on. I didn’t had in mind that this could result in mess that the
-            person
-            who created it wouldn’t be able to understand it.</p>
-        <p>So, Just separate every function, class create in another file, don’t create one file for each function but
-            keep
-            similar functions in one file.</p>
-        <hr>
-        <ol start="4">
-            <li><small><strong>Not keeping Security in Mind</strong></small></li>
-        </ol>
-        <p>I think you already know that <strong>Security is everything</strong> But I didn’t know that which resulted
-            in
-            someone injecting a script in my project’s markdown and whoever did this was kind hearted and didn’t done
-            anything
-            nasty but clearly mentioned in the comment</p>
-        <blockquote>
-            <p>Sanitize your markdown kid.</p>
-        </blockquote>
-        <p>but you won’t find professional hackers that kind hearted every time they hack your product. They won’t think
-            if
-            you’re new or old, beginner or expert they will just do whatever they want with your product <strong>Only
-                If</strong> don’t manage your security well. And If you do it well then It will be good for you and your
-            users.
-        </p>
-        <p>Back to my case, then I immediately went to my project’s templates and add a tag <small>(I don’t remember it
-                now)</small> to cleanse the markdown and everything a user put in the field. then I redeployed the site
-            and I
-            noticed that <code>onclick</code> was no longer reacting on <code>event click</code>.</p>
-        <p>So, I was lucky as it was not a revenue generating and user targeted project. You won’t get a second chance
-            in
-            hacking.</p>
-        <hr>
-        <ol start="5">
-            <li><small><strong>Forgetting everything I needed to build and will built in future</strong></small></li>
-        </ol>
-        <p>Do you find yourself frequently creating tasks in a to-do list only to forget about them? If yes, I was
-            exactly
-            like that, I still am. Countless features I planned to implement in the project (not only in this project
-            but any
-            project I build) was written in the todo list and now only God knows where that todo notes went. I think I
-            don’t
-            have any solution for that? If you have then let me know.</p>
-        <hr>
-        <ol start="5">
-            <li><small><strong>Thinking only you will use the product in the world and no-one else</strong></small></li>
-        </ol>
-        <p>While building the project, I thought only I will be using the product or I didn’t think about other users at
-            all. I build functionalities and copied UI for my laptop and didn’t think, many users will also test from
-            mobile
-            devices and different browsers and it happened because someone stated “Site is not mobile friendly”.</p>
-        <p>So, If you building a product then you should only think about the users and users only, because they are the
-            one
-            you’re building the app for, if you can’t do that then have someone else to review or to test the UI and
-            functionalities but Be sure the person you giving to test can understand the vision of your product. Because
-            there
-            are peoples who will only downvote you no matter how much your idea’s worth is.</p>
-        <hr>
-        <ol start="5">
-            <li><small><strong>Will do it in the Future? Just Do It Now!</strong></small></li>
-        </ol>
-        <p>Can you answer me one thing, How long you think you will live?</p>
-        <p>1000 years? <strong>No way!</strong>, 1100 years? No? If you can increase the number a little more then you
-            can
-            choose whatever you to do and whenever you want. You can’t? You are not going to live 1100 years? then how
-            much?
-            only 65-85 years? That’s it? Then when will be the correct time you think will be best to do you always want
-            to
-            do? There’s no much time. Are you planning to do after 70 years? I guess No, then why everyone take actions
-            like
-            they are going to live 1000 years? Listen to me carefully <strong>There is no tomorrow</strong>, Just do now
-            whatever you want to do <strong>Now!</strong>, Don’t be afraid, Don’t be jealous, Don’t fear. JUST DO NOW!
-            You
-            will turn 50! No! seriously you won’t have time to notice the time how fast it is going.</p>
-        <p>That’s all I wanted to say in this section <small>(Will add more if I remember more)</small>.</p>
-        <small>
-            Note: I may edit this Blog/Post whatever it is from time to time. so If you liked what you're reading then
-        </small> Just Do Whatever you like.
-    </div>
+  <div class="stackedit__html"><h1 id="my-initial-project-experience-journey-and-lessons">My initial project experience: journey and lessons!</h1>
+<p>Hi! Everything good? Enough of the Intro! Let’s start.</p>
+<p><small>Note: This post may be lengthy, but it will be worth your time.</small></p>
+<p>I built my first project about 3 years ago, back when I was just starting out and didn’t have a lot of knowledge about different technologies. Despite my limited expertise, I poured my heart and soul into creating it, opting for simpler tools and methods like,</p>
+<p><strong>Python</strong>: For backend.<br>
+<strong>Django</strong>: Framework.<br>
+<strong>HTML &amp; CSS</strong>: For templates.<br>
+<strong>Threading</strong>: To put programs on sleep and perform certain pending tasks.<br>
+Used <strong>PostgreSQL</strong> database.</p>
+<p>The project took about <strong>3 months</strong> to complete. Why so long, you ask? Well, the journey of completing a project can be unpredictable. In my case, the ups and downs of my experience will soon be revealed in the upcoming sections of this page.</p>
+<p>Let’s begin the Journey.<br>
+<small>Key points for quick navigation if bored. Top section: Journey-focused. Second section: Technical details.</small></p>
+<ol>
+<li>
+<p>Journey and Planning</p>
+<ul>
+<li>Thinking and Planning
+<ul>
+<li>Planning of how to start and what tools to use (which I didn’t plan).</li>
+<li>Monitoring every action and functionality of Stack Overflow.</li>
+</ul>
+</li>
+<li>Started building
+<ul>
+<li>Configuring the project (describing the <strong>journey</strong>, not technical).</li>
+<li>The more code I wrote, the more I learn to create complex functionalities.</li>
+<li>Asking zero questions about Stack Overflow on Stack Overflow while building Stack Overflow.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Technical lessons learned (but explained philosophically).</p>
+<ul>
+<li>Symptoms if you’re dumb as I was.
+<ul>
+<li>Choosing right technology to build the project.</li>
+<li>Not Managing the project from the very beginning.</li>
+<li>Just finishing the task and not <strong>enjoying</strong> it (!important).</li>
+<li>Didn’t separate everything I created.</li>
+<li>Not keeping Security in Mind.</li>
+<li>Forgetting everything I needed to build and will built in future.</li>
+<li>Thinking only you will use the product in the world and no-one else.</li>
+<li>Want to do it in Future? <strong>Just Do It Now!</strong></li>
+</ul>
+</li>
+<li>Efficiency in Coding is a key priority (<small>Not completed yet! Blog is too long and I said what I wanted to say, There will be second part of this post explaining below points</small>).
+<ul>
+<li>Designing models and it’s main functionalities.</li>
+<li>Separating apps.</li>
+<li>Choosing views methods.</li>
+<li><em>Efficient queries</em> and <em>Querying values</em> all at once from Database.</li>
+<li>True, False, False, True, False.</li>
+<li>Have you every heard of using comments.</li>
+<li>When to use <code>len</code> and when to use <code>count</code> and more.</li>
+<li>Decorators are much better to work with.</li>
+<li>Don’t forget about translations in both end.</li>
+<li>Don’t mess with someone else’s HTML and CSS but design your own.</li>
+<li>Passing tests leads the way to success!<br>
+<small>I’ll be adding more additional points in future.</small></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h5 id="lets-begin">Let’s begin</h5>
+<hr>
+<hr>
+<p>Journey and Planning</p>
+<hr>
+<ol>
+<li><small><strong>Planning of how to start and what tools to use (which I didn’t plan)</strong></small></li>
+</ol>
+<p>As previously mentioned, I was in the early stages of learning about Django and had limited knowledge of other options available. Therefore, I opted to use DRF for my project. While I do not regret this decision, I realize now that I did not thoroughly assess the efficiency or potential drawbacks of Django. <strong>It is important to always evaluate the  weaknesses of the tool you choose to build your project in</strong>, meaning if you can build the features and functionalities in the tool you are choosing. Additionally, it is essential to consider whether you are fully prepared to navigate the complexities of the chosen tool.<br>
+During that time, I had approximately 35% knowledge of Django and did not hesitate to begin working on the project with whatever I know about Django. And now I can confidently state that I acquired  knowledge of around 85% of Django during the project’s development. I would only say <strong>Don’t wait for anything. JUST START with whatever YOU KNOW and whatever you have. You will acquire knowledge automatically throughout the juicy journey.</strong></p>
+<hr>
+<ol start="2">
+<li><small><strong>Monitoring every action and functionality of Stack Overflow.</strong></small></li>
+</ol>
+<p>I had a Stack Overflow account with about 900 Rep <small>(which I earned in about 2 years)</small>.  And I had access to privileges like <code>access review queues</code>, <code>view close votes</code> but was not enough to get the idea of how <code>Low quality posts</code>, <code>Moderator tools</code>, <code>Reviewing queues</code> works, for which I couldn’t get any help from high rep users because I didn’t know any, and even If I did, I highly doubt they wouldn’t tell me the complete functionalities of reviewing process. But I had to implement it no matter what, so I started looking for answers and found <a href="https://stackoverflow.com/help/review-low-quality">Stack Overflow’s explaining about Low quality posts</a>.</p>
+<p>so it was like</p>
+<p>-&gt; <code>query to get all posts which are low in quality</code> such as <code>Q and A wihch are short</code>, <code>Q and A from new users</code>.<br>
+-&gt; <code>Taking a post one by one and checking the action if user skipped the review or took any action</code><br>
+-&gt; <code>If skipped flag it as skipped and pass it high rep user</code><br>
+-&gt; <code>If not skipped then check how many votes were on post to mark it as low quality post.</code></p>
+<p>I gathered all of ideas of functionalities from SO like <a href="https://stackoverflow.com/help/review-suggested-edits">Suggested Edits</a>, <a href="https://stackoverflow.com/help/review-close">Close Votes</a>.</p>
+<p>Afterward, <strong>it was not difficult to implement once you know the concept of how things works</strong>.</p>
+<p>However, I found it useful to closely monitor each detail of how SO showcases information and engages users, including aspects <code>Rewarding awards</code>, <code>Badges</code>, <code>Declaring bounties</code>, <code>Awarding bounties</code>. While this process proved to be time-consuming and took longer than anticipated, the monitoring efforts were ultimately valuable than expected.</p>
+<p><small>and I learned</small></p>
+<blockquote>
+<p><em>When a user is in a specific location for a particular task, he or she may overlook the most obvious details about it, whether it be a place, application, or website.</em></p>
+</blockquote>
+<hr>
+<hr>
+<p>Started building</p>
+<hr>
+<ol>
+<li><small><strong>Configuring the project</strong></small></li>
+</ol>
+<p>Then, I made a long list of features and functionalities I will be building in the project with the rows like <strong>Hard to Implement</strong>, <strong>Easy to Implement</strong>. I had about 10-15 SO functionalities in <strong>Hard</strong> row and 30-35 functionalities in <strong>Easy</strong> row.</p>
+<p>Unfortunately, I lost the table of features which I had it saved. However, I do remember some of the functionalities that were categorized in the Hard row like <code>Edited Question and Answer's Revision</code>, <code>Deciding if edit should save or not</code>, <code>Handling review queues</code>, <small>I don’t remember all</small>. I didn’t know why I choose term <strong>Hard</strong> without knowing the under process at that time, The truth is <strong>I didn’t know anything about anything, I just got my hands into it started building it</strong>.</p>
+<p>As I continue to implement easy/basic functionalities, my understanding of building more complex functions has deepened. This has led me to problem-solving by breaking down processes, enabling me to successfully implement functions that I initially believed were beyond my capabilities.</p>
+<hr>
+<ol start="2">
+<li><small><strong>The more code I wrote, the more I learn to create complex functionalities.</strong></small></li>
+</ol>
+<p>As I mentioned in previous section, let’s dig deep in it. Becoming expert in coding involves more than just problem-solving and approaching all tasks with a coding mindset, but It involves optimizing efficiency by considering multiple approaches, carefully selecting the most suitable option, and ultimately implementing it in the current project.</p>
+<p>which I learned while building this project, at the time from <strong>building</strong> and <strong>completing</strong>, I didn’t care about efficiency, consistency, queries, load on database but only focused on just building it and finishing it somehow, no matter how many loops I had to create. And Now when I look back at my project and look at the code I wrote, I only see straight colorful puke.</p>
+<hr>
+<ol start="3">
+<li><small><strong>Asking zero questions about Stack Overflow on Stack Overflow while building Stack Overflow.</strong></small></li>
+</ol>
+<p>It’s true that I didn’t ask any questions on Stack Overflow when I encountered errors because I believed they would be resolved by the end of the day. I found it helpful to take breaks and return to the issue after 1-2 hours, which often resulted in a solution. While I did refer to Stack Overflow answers when needed, I preferred to troubleshoot and solve problems on my own without asking a question especially.</p>
+<hr>
+<hr>
+<p>Technical lessons learned - <strong>Symptoms if you’re dumb as I was</strong></p>
+<hr>
+<ol>
+<li><small><strong>Choosing right technology to build the project</strong></small></li>
+</ol>
+<p>If you’re building something, choose the right kind of tools and technologies, don’t hesitate to take your time to research because choosing the right tech will pay off at the end.</p>
+<p>For instance, if you select a technology that is not optimized for task efficiency and you proceed to build a product with it, at start progress may seem smooth. However, as development progresses, you may encounter limitations and deficiencies in the dumb technology that hinder your ability to go back or move forward. Reversing would consume valuable time already invested, while going forward could result in a dumb product that fails to meet end user needs, leading to disengagement or lack of utilization.</p>
+<p>In my case, I used <code>threading</code> to handle task queues in situations like <code>To release ban of a user in particular time period</code>, <code>End bounties after 5,6,7 days</code>, <code>auto close questions</code>, etc.</p>
+<p>If you know threading then you would know that, it is only good for <strong>short term tasks</strong> if I keep it more simple.  like if you want to handle or create a API call to a URL and want to call it in after 10 seconds when the user presses button then I would use threading in that case but In my project <a href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L111">I put task to sleep for 62208000 seconds (4 years)</a> I used even more you can take a look in the repo. Can you imagine? If you can imagine then you are on the right path, if not then you need to _____________ <small>(You can place any words you want in the blank area)</small></p>
+<hr>
+<ol start="2">
+<li><small><strong>Not Managing the project from the very beginning.</strong></small></li>
+</ol>
+<p>Are you building a project right now? If yes, then it’s not too late to manage it accordingly, if you managing it right then look again, it’s not managed well. You don’t wanna know what I did to manage my project do you, Wanna know? <strong>Nothing</strong>. Creeped out? No? <a href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L5366">Look at the lines I have in one file</a>. Still haven’t creeped out? <a href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/qa/views.py#L5165">Look at the names of variables</a> (bool_1, bool_2, bool_3) <a href="https://github.com/Yawan-1/StackOverFlow--Clone/blob/master/review/views.py#L3802">Look at the beauty of if, else statement</a>.  Came from basin? Now Let’s discuss about <strong>Managing the project</strong>, Clearly I didn’t manage my project well which made the project unmaintainable, impossible to understand to user no matter if they are expert or a beginner.</p>
+<ul>
+<li>Organize files into separate categories such as helpers, constants, and utilities. Ensure careful management of core project files, handling them separately for development and production environments. For instance, in Django, manage files within the app’s folder, and in React, consider files like App.js and root.js…</li>
+<li>It is important to ensure that secrets keys remains private and obscured from the public eye, and even more so from yourself and keep it in .env. Ultimately, the only choices that will exist are either compromised or safeguarded.</li>
+<li><small>Will write more if remember.</small></li>
+</ul>
+<hr>
+<ol start="3">
+<li><small><strong>Just finishing the task and not enjoying it.</strong></small></li>
+</ol>
+<p>Are you living your life the fullest or sacrificing your life for someone else? If you are living your life then you would understand that enjoying while building something can not only be juicy but more pleasurable. So, If you’re building something even if it is small or bigger than you, don’t just build it but enjoy it, because nobody knows if your product will change the world and you may miss the journey later.</p>
+<p>I am repeating myslef, I viewed building the project as a task assigned to me, which I completed despite not particularly enjoying the process. Now I think, I believe that having a more positive mindset during that time could have resulted in greater awareness of the project’s requirements and the quality of the code I wrote.</p>
+<hr>
+<ol start="3">
+<li><small><strong>Didn’t separate everything I created.</strong></small></li>
+</ol>
+<p>As I mentioned in earlier section that, I didn’t take good care of files and the code I put into them, I just stacked them into one and go on and on and on. I didn’t had in mind that this could result in mess that the person who created it wouldn’t be able to understand it.</p>
+<p>So, Just separate every function, class create in another file, don’t create one file for each function but keep similar functions in one file.</p>
+<hr>
+<ol start="4">
+<li><small><strong>Not keeping Security in Mind</strong></small></li>
+</ol>
+<p>I think you already know that <strong>Security is everything</strong> But I didn’t know that which resulted in someone injecting a script in my project’s markdown and whoever did this was kind hearted and didn’t done anything nasty but clearly mentioned in the comment</p>
+<blockquote>
+<p>Sanitize your markdown kid.</p>
+</blockquote>
+<p>but you won’t find professional hackers that kind hearted every time they hack your product. They won’t think if you’re new or old, beginner or expert they will just do whatever they want with your product <strong>Only If</strong> don’t manage your security well. And If you do it well then It will be good for you and your users.</p>
+<p>Back to my case, then I immediately went to my project’s templates and add a tag <small>(I don’t remember it now)</small>  to cleanse the markdown and everything a user put in the field. then I redeployed the site and I noticed that <code>onclick</code> was no longer reacting on <code>event click</code>.</p>
+<p>So, I was lucky as it was not a revenue generating and user targeted project. You won’t get a second chance in hacking.</p>
+<hr>
+<ol start="5">
+<li><small><strong>Forgetting everything I needed to build and will built in future</strong></small></li>
+</ol>
+<p>Do you find yourself frequently creating tasks in a to-do list only to forget about them? If yes, I was exactly like that, I still am. Countless features I planned to implement in the project (not only in this project but any project I build) was written in the todo list and now only God knows where that todo notes went. I think I don’t have any solution for that? If you have then let me know.</p>
+<hr>
+<ol start="5">
+<li><small><strong>Thinking only you will use the product in the world and no-one else</strong></small></li>
+</ol>
+<p>While building the project, I thought only I will be using the product or I didn’t think about other users at all. I build functionalities and copied UI for my laptop and didn’t think, many users will also test from mobile devices and different browsers and it happened because someone stated “Site is not mobile friendly”.</p>
+<p>So, If you building a product then you should only think about the users and users only, because they are the one you’re building the app for, if you can’t do that then have someone else to review or to test the UI and functionalities but Be sure the person you giving to test can understand the vision of your product. Because there are peoples who will only downvote you no matter how much your idea’s worth is.</p>
+<hr>
+<ol start="5">
+<li><small><strong>Will do it in the Future? Just Do It Now!</strong></small></li>
+</ol>
+<p>Can you answer me one thing, How long you think you will live?</p>
+<p>1000 years? <strong>No way!</strong>, 1100 years? No? If you can increase the number a little more then you can choose whatever you to do and whenever you want. You can’t? You are not going to live 1100 years? then how much? only 65-85 years? That’s it? Then when will be the correct time you think will be best to do you always want to do? There’s no much time. Are you planning to do after 70 years? I guess No, then why everyone take actions like they are going to live 1000 years?  Listen to me carefully <strong>There is no tomorrow</strong>, Just do now whatever you want to do <strong>Now!</strong>, Don’t be afraid, Don’t be jealous, Don’t fear. JUST DO NOW! You will turn 50! No! seriously you won’t have time to notice the time how fast it is going.</p>
+<p>That’s all I wanted to say in this section <small>(Will add more if I remember more)</small>.</p>
+<small>
+Note: I may edit this Blog/Post whatever it is from time to time, you can check back later, I will keep you updated. And If you liked what you're reading then will you just do yourself some favors, mentioned below</small>.
+<ul>
+<li>Just Do Whatever you like.</li>
+<li>If someone needs help, Help them.</li>
+<li>Forget the mistakes I made in this blog.</li>
+</ul>
+</div>
 </body>
 
 </html>
